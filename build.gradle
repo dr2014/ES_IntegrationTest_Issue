@@ -11,10 +11,6 @@ repositories {
 	mavenCentral()
 }
 
-mainClassName = 'org.elasticsearch.bootstrap.ElasticsearchF'
-applicationDefaultJvmArgs = ["-ea"]
-
-
 dependencies {
 	compile group: 'org.elasticsearch', name: 'elasticsearch', version: elasticsearchVersion
 	compile group: 'net.java.dev.jna', name: 'jna', version: '4.1.0'
